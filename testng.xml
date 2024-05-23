@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="FindingHospitals">
+  <test name="TestOnChrome">
+	<parameter name="browserName" value="Chrome"></parameter>
+    <classes>
+      <class name="com.project.testSuites.TestCases"/>
+    </classes>
+  </test>
+</suite><!--  FindingHospitals  -->
